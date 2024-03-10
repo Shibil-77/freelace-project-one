@@ -16,7 +16,7 @@ const Navbar = () => {
   const arr = ["Home", "About", "Servies", "Contact"];
 
   return (
-    <div className="lg:container lg:mx-0 mx-5">
+    <div className="lg:container lg:mx-0 mx-5 bg-backgound-color">
       <nav className="sticky top-0 z-50 p-0 py-5 w-full">
         <div className="w-full flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">

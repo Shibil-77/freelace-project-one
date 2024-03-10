@@ -24,7 +24,7 @@ module.exports = {
         'primary': '#0086D5',
         'secondary': '#303030',
         'font-color': '#707070',
-        'backgound-color' : 'FAFAFA'
+        'backgound-color' : '#FAFAFA'
       },
     },
   },
