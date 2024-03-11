@@ -92,15 +92,15 @@ const ClientList = () => {
   ];
   return (
     <>
-      <div className="mx-12 my-16 text-secondary lg:container bg-backgound-color">
+      <div className=" lg:my-16 text-secondary lg:container bg-backgound-color" id="element3">
         <div className="text-center md:py-10 py-5">
           <h1 className="md:text-[36px] text-[24px] font-bold">
             {/* Proudly Serving{" "} */}
-            <span className="md:text-[36px] text-[24px] text-secondary font-play">
+            <span className="md:text-[36px] text-[36px] text-secondary font-play">
               Trusted Clients
             </span>
           </h1>
-          <p className="text-secondary text-[10px] md:text-[15px] font-play">
+          <p className="text-secondary text-[13px] md:text-[15px] font-play">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam{" "}
             <br />
             nonumy eirmod tempor invidunt ut labore et
@@ -115,7 +115,7 @@ const ClientList = () => {
               >
                 <h1 className="font-play">{item.name}</h1>
                 <div className="flex justify-center my-5">
-                <Image src={img} alt="hello" className="w-24 h-24 " />
+                <Image src={img} alt="hello" className="lg:w-24 w-20 h-20 lg:h-24 " />
                 </div>
                
 

@@ -16,7 +16,7 @@ const Navbar = () => {
   const arr = ["Home", "About", "Servies", "Contact"];
 
   return (
-    <div className="lg:container lg:mx-0 mx-5 bg-backgound-color">
+    <div className="lg:container lg:mx-0 px-5 bg-backgound-color" id="element3">
       <nav className="sticky top-0 z-50 p-0 py-5 w-full">
         <div className="w-full flex flex-wrap items-center justify-between ">
           <a href="/" className="flex items-center">
@@ -81,7 +81,7 @@ const Navbar = () => {
             }`}
             id="navbar-sticky"
           >
-            <ul className="flex flex-col p-4 md:p-0 mt-4 font-semibold bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
+            <ul id="element" className="flex  flex-col p-4 md:p-0 mt-4 font-semibold bg-opacity-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
               {arr.map((value, index) => {
                 return (
                   <li key={value}>
