@@ -93,8 +93,8 @@ const ClientList = () => {
   return (
     <>
       <div className=" lg:my-16 text-secondary lg:container bg-backgound-color" id="element3">
-        <div className="text-center md:py-10 py-5">
-          <h1 className="md:text-[36px] text-[24px] font-bold">
+        <div className="text-center md:py-10 py-5" >
+          <h1 className="md:text-[36px] text-[24px] font-bold" >
             {/* Proudly Serving{" "} */}
             <span className="md:text-[36px] text-[36px] text-secondary font-play">
               Trusted Clients
